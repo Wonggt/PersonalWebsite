@@ -26,7 +26,7 @@ export default function WorkPage() {
 
         <div style={{ gridColumn: '1 / 10' }}>
           <h1 className="display">
-            {profile.first}
+            {profile.first}{' '}
             <br />
             {profile.last}
           </h1>
@@ -75,7 +75,7 @@ export default function WorkPage() {
               <article className="case">
               <div className="case__head">
                 <span className="case__idx">{item.idx}</span>
-                <h3>{item.title}</h3>
+                <h2>{item.title}</h2>
               </div>
 
               <div className="case__body">

@@ -17,7 +17,9 @@ import {
 } from '@/content/life'
 
 export const metadata = {
-  title: 'Life',
+  // The root segment doesn't inherit the layout's title template,
+  // so the homepage needs its full title spelled out.
+  title: { absolute: 'Andrew Wong — Kuala Lumpur' },
   description:
     'I write code most days. The rest of the time I’m on a badminton court, in a coffee shop, or on a plane to somewhere I haven’t been.',
 }
@@ -52,7 +54,7 @@ export default function LifePage() {
 
         <div className="hero__name">
           <h1 className="display">
-            {profile.first}
+            {profile.first}{' '}
             <br />
             {profile.last}
           </h1>
