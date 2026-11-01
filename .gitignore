@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+.env*.local
+
+# Local dev artefacts — regenerable, and shots/ is ~85 MB of screenshots
+shots/
+legacy/
+personal-site-plan.html
+
+# Agent scratch/memory — not part of the site
+.workbuddy-ai/
