@@ -219,7 +219,7 @@ export const travel = {
       alt: 'Andrew in front of the Petronas Twin Towers at night',
       tone: 'tone-d',
       no: 'Plate 09',
-      caption: 'Twin Towers from the park. Sat there until security asked me to move.',
+      caption: 'An evening above the city.',
       ratio: '3 / 5',
       span: '1 / 5',
     },
